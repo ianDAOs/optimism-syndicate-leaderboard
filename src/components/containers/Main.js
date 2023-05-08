@@ -6,8 +6,8 @@ export default function Main() {
     return (
         <main>
             <div className="pt-20 grid grid-cols-2">
-                <Infographics />
                 <Leaderboard />
+                <Infographics />
             </div>
             <div>
                 <Button title="Contribute" />
