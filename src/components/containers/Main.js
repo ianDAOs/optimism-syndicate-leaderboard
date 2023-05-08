@@ -1,11 +1,17 @@
+import Title from "../ui/main/Title";
+import LastUpdated from "../ui/main/LastUpdated";
 import Infographics from "../features/infographics/Infographics";
 import Leaderboard from "../features/leaderboard/Leaderboard";
 import Button from "../ui/button/Button";
 
 export default function Main() {
     return (
-        <main>
-            <div className="pt-20 grid grid-cols-2">
+        <main className="pt-20">
+            <div>
+                <Title />
+                <LastUpdated />
+            </div>
+            <div className="grid grid-cols-2">
                 <Leaderboard />
                 <Infographics />
             </div>
