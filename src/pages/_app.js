@@ -9,9 +9,11 @@ export default function App({ Component, pageProps }) {
                 <meta name="viewport" content="initial-scale=1.0, width=device-width" />
                 {/* add favicon */}
                 {/* add social previews */}
-                <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+                {/* add fonts? */}
             </Head>
+            {/* wrap in wallet provider */}
             <Component {...pageProps} />
+            {/* wrap in wallet provider */}
         </>
     );
 }
