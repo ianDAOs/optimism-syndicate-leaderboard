@@ -1,4 +1,5 @@
 import Navigation from "../ui/Navigation/Navigation";
+import WalletButton from "../ui/WalletButton/WalletButton";
 
 export default function Header() {
     return (
@@ -6,7 +7,7 @@ export default function Header() {
             <p>Logo: Optimism</p>
             <p>Title: Co-grants Leaderboard</p>
             <Navigation />
-            <p>Integration: Wallet Button</p>
+            <WalletButton />
         </div>
     );
 }
