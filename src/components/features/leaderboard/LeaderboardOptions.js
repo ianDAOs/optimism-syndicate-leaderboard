@@ -1,5 +1,11 @@
+import LeaderboardOption from "./LeaderboardOption";
+
 export default function LeaderboardOptions() {
     return (
-        <p>Leaderboard Options</p>
+        <>
+            <LeaderboardOption title="Amount" />
+            <LeaderboardOption title="Contributions" />
+            <LeaderboardOption title="Contributor Number" />
+        </>
     );
 }
