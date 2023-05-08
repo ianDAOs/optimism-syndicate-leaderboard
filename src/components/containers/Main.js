@@ -6,7 +6,7 @@ export default function Main() {
     return (
         <main>
             <Infographics />
-            <Button />
+            <Button title="Contribute" />
             <Leaderboard />
         </main>
     );

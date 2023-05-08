@@ -1,5 +1,5 @@
-export default function Button() {
+export default function Button({ title }) {
     return (
-        <button>Button</button>
+        <button>{title}</button>
     );
 }
