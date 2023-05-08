@@ -5,7 +5,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Optimism Co-Grants Leaderboard',
-  description: 'TBD',
+  description: 'Leaderboard for Optimism Co-Grants Season 4',
 }
 
 export default function RootLayout({ children }) {

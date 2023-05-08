@@ -5,7 +5,7 @@ import WalletButton from "../ui/walletbutton/WalletButton";
 
 export default function Header() {
     return (
-        <header>
+        <header className="fixed flex justify-between">
             <OptimismLogo />
             <Title />
             <Navigation />

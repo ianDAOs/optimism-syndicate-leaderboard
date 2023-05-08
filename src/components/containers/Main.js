@@ -5,9 +5,13 @@ import Button from "../ui/button/Button";
 export default function Main() {
     return (
         <main>
-            <Infographics />
-            <Button title="Contribute" />
-            <Leaderboard />
+            <div className="pt-20 grid grid-cols-2">
+                <Infographics />
+                <Leaderboard />
+            </div>
+            <div>
+                <Button title="Contribute" />
+            </div>
         </main>
     );
 }
