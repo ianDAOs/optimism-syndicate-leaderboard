@@ -6,6 +6,7 @@ export default function Infographics() {
             <p>Total Contributions</p>
             <p>Number of Contributors</p>
             <p>Implied Impact</p>
+            <p>ERC-721M Contract | Safe Address</p>
         </section>
     );
 }
