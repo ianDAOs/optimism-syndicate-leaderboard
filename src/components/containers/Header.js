@@ -4,10 +4,14 @@ import WalletButton from "../ui/walletbutton/WalletButton";
 
 export default function Header() {
     return (
-        <header className="fixed flex justify-between">
-            <OptimismLogo />
-            <Navigation />
-            <WalletButton />
+        <header className="flex justify-between">
+            <div className="flex items-center">
+                <OptimismLogo />
+                <Navigation />
+            </div>
+            <div>
+                <WalletButton />
+            </div>
         </header>
     );
 }
