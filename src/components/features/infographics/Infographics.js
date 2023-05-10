@@ -22,9 +22,27 @@ export default function Infographics() {
             <p>Total Contribution Amount</p>
             <p>Total Contributions</p>
             <p>Number of Contributors</p>
-            <p>{JSON.stringify(data)}</p>
             <p>Implied Impact</p>
-            <p>ERC-721M Contract | Safe Address</p>
+            <p>ERC-721M Contract Address</p>
+            <p>Contract Name</p>
+            <p>NFT symbol</p>
+            <p>Safe Address</p>
+            <p>ERC-721M Contract</p>
+            {data ? (
+                <>
+                    <p>Address: {data.address}</p>
+                    <p>Name: {data.name}</p>
+                    <p>Symbol: {data.symbol}</p>
+                    <p>Supply: {data.totalSupply}</p>
+                </>
+            ) : (
+                <>
+                    <p>Address: Loading...</p>
+                    <p>Name: Loading...</p>
+                    <p>Symbol: Loading...</p>
+                    <p>Supply: Loading...</p>
+                </>
+            )}
         </section>
     );
 }
