@@ -12,8 +12,8 @@ export default function Main() {
                 <LastUpdated />
             </div>
             <div className="grid grid-cols-2">
-                <Leaderboard />
                 <Infographics />
+                <Leaderboard />
             </div>
             <div>
                 <Button title="Contribute" />
