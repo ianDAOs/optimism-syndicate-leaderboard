@@ -8,7 +8,7 @@ export default function Infographics() {
 
     useEffect(() => {
         async function fetchData() {
-            const response = await fetch('/api/infographics');
+            const response = await fetch('/api/contractData');
             const data = await response.json();
             setData(data);
         }
@@ -23,9 +23,6 @@ export default function Infographics() {
             <p>Total Contributions</p>
             <p>Number of Contributors</p>
             <p>Implied Impact</p>
-            <p>ERC-721M Contract Address</p>
-            <p>Contract Name</p>
-            <p>NFT symbol</p>
             <p>Safe Address</p>
             <p>ERC-721M Contract</p>
             {data ? (
