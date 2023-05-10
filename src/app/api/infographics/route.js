@@ -9,15 +9,16 @@ export async function GET() {
     const options = {
         method: 'GET',
         headers: {
-            accept: 'application/json'
-        }
+            accept: 'application/json',
+        },
     };
 
-    const data = await fetch(apiUrl, options)
-        .then(response => response.json())
-        .then(response => console.log(response))
-        .catch(err => console.error(err));
-
-    return NextResponse.json({ data });
-
+    try {
+        const response = await fetch(apiUrl, options);
+        const data = await response.json();
+        return NextResponse.json(data);
+    } catch (err) {
+        console.error(err);
+        return NextResponse.serverError('An error occurred while fetching data.');
+    }
 }
