@@ -10,9 +10,6 @@ export async function GET() {
         method: 'GET',
         headers: {
             accept: 'application/json'
-        },
-        next: {
-            revalidate: 60
         }
     };
 
