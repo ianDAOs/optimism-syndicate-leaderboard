@@ -20,17 +20,26 @@ export default function Infographics() {
     return (
         <section className="px-4">
             <p>Summary</p>
-            <p>Total Contribution Amount - alchemy/usdc/ordune</p>
-            <p>Total Contributions - backend/alchemy/assettransfers/ordune</p>
-            <p>Largest Contribution - backend/alchemy/assettransfers/ordune</p>
-            <p>{data ? data.totalSupply : ("Loading...")} Number of Contributors</p>
-            <p>Most Contributions - backend/alchemy/assettransfers/ordune</p>
-            <p>Implied Impact</p>
-            <p>Safe Address</p>
-            <p>ERC-721M Contract</p>
-            <p>{data ? data.address : ("Loading...")} Address</p>
-            <p>{data ? data.name : ("Loading...")} Name</p>
-            <p>{data ? data.symbol : ("Loading...")} Symbol</p>
+            <p className="pt-3 text-5xl">$$$</p>
+            <p className="pt-1 text-sm text-gray-500">Total Contribution Amount</p>
+            <p className="pt-3 text-5xl">###</p>
+            <p className="pt-1 text-sm text-gray-500">Total Contributions</p>
+            <p className="pt-3 text-2xl">$$$</p>
+            <p className="pt-1 text-sm text-gray-500">Largest Contribution</p>
+            <p className="pt-3 text-2xl">{data ? data.totalSupply : ("Loading...")}</p>
+            <p className="pt-1 text-sm text-gray-500">Number of Contributors</p>
+            <p className="pt-3 text-2xl">###</p>
+            <p className="pt-1 text-sm text-gray-500">Most Contributions</p>
+            <p className="pt-3 text-2xl">$$$</p>
+            <p className="pt-1 text-xs text-gray-500">Implied Impact</p>
+            <p className="pt-10 text-sm">{data ? data.address : ("Loading...")}</p>
+            <p className="pt-0 text-xs text-gray-500">Safe Address</p>
+            <p className="pt-3 text-sm">{data ? data.address : ("Loading...")}</p>
+            <p className="pt-0 text-xs text-gray-500">ERC-721M Contract Address</p>
+            <p className="pt-3 text-sm">{data ? data.name : ("Loading...")}</p>
+            <p className="pt-0 text-xs text-gray-500">Name</p>
+            <p className="pt-3 text-sm">{data ? data.symbol : ("Loading...")}</p>
+            <p className="pt-0 text-xs text-gray-500">Symbol</p>
         </section>
     );
 }
