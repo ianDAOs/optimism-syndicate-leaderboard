@@ -11,7 +11,7 @@ export default function Main() {
                 <Title />
                 <LastUpdated />
             </div>
-            <div className="flex justify-center pt-6">
+            <div className="flex justify-center pt-8">
                 <Button title="Contribute to Season 4" />
             </div>
             <div className="grid grid-cols-2 pt-10">

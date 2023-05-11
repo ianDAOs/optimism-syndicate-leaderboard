@@ -1,5 +1,7 @@
 export default function Title() {
     return (
-        <p>Title: Optimism Co-Granting Leaderboard</p>
+        <p className="text-xl font-medium">
+            Optimism Co-Granting Season 4
+        </p>
     );
 }

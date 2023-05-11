@@ -1,5 +1,7 @@
 export default function NavItem({ title }) {
     return (
-        <p>NavItem: {title}</p>
+        <p className="px-4 text-sm text-gray-500">
+            NavItem: {title}
+        </p>
     );
 }
