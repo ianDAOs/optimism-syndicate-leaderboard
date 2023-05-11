@@ -6,12 +6,12 @@ import Button from "../ui/button/Button";
 
 export default function Main() {
     return (
-        <main className="pt-20">
-            <div>
+        <main className="container mx-auto pt-20 px-4 break-all">
+            <div className="flex grid grid-rows-2 justify-center text-center">
                 <Title />
                 <LastUpdated />
             </div>
-            <div className="grid grid-cols-2">
+            <div className="grid grid-cols-2 pt-8">
                 <Infographics />
                 <Leaderboard />
             </div>
