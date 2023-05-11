@@ -6,17 +6,17 @@ import Button from "../ui/button/Button";
 
 export default function Main() {
     return (
-        <main className="container mx-auto pt-20 px-4 break-all">
+        <main className="container mx-auto py-20 px-4 break-all">
             <div className="flex grid grid-rows-2 justify-center text-center">
                 <Title />
                 <LastUpdated />
             </div>
-            <div className="grid grid-cols-2 pt-8">
+            <div className="flex justify-center pt-6">
+                <Button title="Contribute to Season 4" />
+            </div>
+            <div className="grid grid-cols-2 pt-10">
                 <Infographics />
                 <Leaderboard />
-            </div>
-            <div>
-                <Button title="Contribute" />
             </div>
         </main>
     );

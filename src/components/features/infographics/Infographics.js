@@ -18,7 +18,7 @@ export default function Infographics() {
     }, []);
 
     return (
-        <section>
+        <section className="px-4">
             <p>Summary</p>
             <p>Total Contribution Amount - alchemy/usdc</p>
             <p>Total Contributions - backend/alchemy/assettransfers</p>
