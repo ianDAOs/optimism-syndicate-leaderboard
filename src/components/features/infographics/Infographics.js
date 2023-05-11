@@ -6,6 +6,7 @@ export default function Infographics() {
 
     const [data, setData] = useState(null);
 
+    // Fetch ERC-721M smart contract data from Alchemy
     useEffect(() => {
         async function fetchData() {
             const response = await fetch('/api/contractData');
@@ -21,10 +22,13 @@ export default function Infographics() {
             <p>Infographics</p>
             <p>Total Contribution Amount</p>
             <p>Total Contributions</p>
+            <p>Largest Contribution</p>
             <p>Number of Contributors</p>
+            <p>Most Contributions</p>
             <p>Implied Impact</p>
             <p>Safe Address</p>
             <p>ERC-721M Contract</p>
+            <p>Test: {data ? data.address : ("Loading...")}</p>
             {data ? (
                 <>
                     <p>Address: {data.address}</p>

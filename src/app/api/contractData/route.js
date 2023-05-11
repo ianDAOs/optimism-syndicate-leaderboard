@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server';
 import { ALCHEMY_API_BASE_URL, CONTRACT_ADDRESS } from '@/data/config';
 
-// API route handler to fetch ERC-721M NFT smart contract metadata from Alchemy
+// API route handler to fetch NFT smart contract metadata from Alchemy
 export async function GET() {
 
     const apiKey = process.env.ALCHEMY_API_KEY;
