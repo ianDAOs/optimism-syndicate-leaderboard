@@ -20,11 +20,11 @@ export default function Infographics() {
     return (
         <section>
             <p>Infographics</p>
-            <p>Total Contribution Amount</p>
-            <p>{data ? data.totalSupply : ("Loading...")} Total Contributions</p>
-            <p>Largest Contribution</p>
-            <p>Number of Contributors</p>
-            <p>Most Contributions</p>
+            <p>Total Contribution Amount - alchemy/usdc</p>
+            <p>Total Contributions - backend/alchemy/assettransfers</p>
+            <p>Largest Contribution - backend/alchemy/assettransfers</p>
+            <p>{data ? data.totalSupply : ("Loading...")} Number of Contributors</p>
+            <p>Most Contributions - backend/alchemy/assettransfers</p>
             <p>Implied Impact</p>
             <p>Safe Address</p>
             <p>ERC-721M Contract</p>

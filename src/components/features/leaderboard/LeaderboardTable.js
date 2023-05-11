@@ -2,11 +2,11 @@ export default function LeaderboardTable() {
     return (
         <>
             <p>Leaderboard Table</p>
-            <p>Rank</p>
-            <p>Wallet/ENS</p>
-            <p>Total Amount</p>
-            <p>Contributions</p>
-            <p>Contributor Number</p>
+            <p>Rank - backend</p>
+            <p>Wallet/ENS - backend/alchemy/nft</p>
+            <p>Total Amount - backend/alchemy/assettransfers</p>
+            <p>Contributions - backend/alchemy/assettransfers</p>
+            <p>Contributor Number - backend/alchemy/nft</p>
         </>
     );
 }
