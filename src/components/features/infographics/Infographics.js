@@ -19,7 +19,7 @@ export default function Infographics() {
 
     return (
         <section>
-            <p>Infographics</p>
+            <p>Summary</p>
             <p>Total Contribution Amount - alchemy/usdc</p>
             <p>Total Contributions - backend/alchemy/assettransfers</p>
             <p>Largest Contribution - backend/alchemy/assettransfers</p>
