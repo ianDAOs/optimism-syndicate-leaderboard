@@ -21,7 +21,7 @@ export default function Infographics() {
         <section>
             <p>Infographics</p>
             <p>Total Contribution Amount</p>
-            <p>Total Contributions</p>
+            <p>Total Contributions: {data ? data.totalSupply : ("Loading...")}</p>
             <p>Largest Contribution</p>
             <p>Number of Contributors</p>
             <p>Most Contributions</p>
@@ -31,7 +31,6 @@ export default function Infographics() {
             <p>Address: {data ? data.address : ("Loading...")}</p>
             <p>Name: {data ? data.name : ("Loading...")}</p>
             <p>Symbol: {data ? data.symbol : ("Loading...")}</p>
-            <p>Supply: {data ? data.totalSupply : ("Loading...")}</p>
         </section>
     );
 }
