@@ -28,22 +28,10 @@ export default function Infographics() {
             <p>Implied Impact</p>
             <p>Safe Address</p>
             <p>ERC-721M Contract</p>
-            <p>Test: {data ? data.address : ("Loading...")}</p>
-            {data ? (
-                <>
-                    <p>Address: {data.address}</p>
-                    <p>Name: {data.name}</p>
-                    <p>Symbol: {data.symbol}</p>
-                    <p>Supply: {data.totalSupply}</p>
-                </>
-            ) : (
-                <>
-                    <p>Address: Loading...</p>
-                    <p>Name: Loading...</p>
-                    <p>Symbol: Loading...</p>
-                    <p>Supply: Loading...</p>
-                </>
-            )}
+            <p>Address: {data ? data.address : ("Loading...")}</p>
+            <p>Name: {data ? data.name : ("Loading...")}</p>
+            <p>Symbol: {data ? data.symbol : ("Loading...")}</p>
+            <p>Supply: {data ? data.totalSupply : ("Loading...")}</p>
         </section>
     );
 }
