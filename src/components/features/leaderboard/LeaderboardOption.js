@@ -1,5 +1,7 @@
 export default function LeaderboardOption({ title }) {
     return (
-        <button>{title}</button>
+        <button className="px-2 text-xs">
+            {title}
+        </button>
     );
 }

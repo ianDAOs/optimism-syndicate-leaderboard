@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
+import Subtitle from '@/components/ui/main/Subtitle';
 
 export default function Infographics() {
 
@@ -19,7 +20,7 @@ export default function Infographics() {
 
     return (
         <section className="px-4">
-            <p>Summary</p>
+            <Subtitle title="Summary" />
             <p className="pt-3 text-5xl">$$$</p>
             <p className="pt-1 text-sm text-gray-500">Total Contribution Amount</p>
             <p className="pt-3 text-5xl">###</p>
