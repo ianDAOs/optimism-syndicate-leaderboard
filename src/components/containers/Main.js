@@ -14,7 +14,7 @@ export default function Main() {
             <div className="flex justify-center pt-8">
                 <Button title="Contribute to Season 4" />
             </div>
-            <div className="grid grid-cols-2 pt-16">
+            <div className="grid lg:grid-cols-2 pt-16">
                 <Infographics />
                 <Leaderboard />
             </div>

@@ -5,7 +5,7 @@ import LeaderboardNav from "./LeaderboardNav";
 
 export default function Leaderboard() {
     return (
-        <section className="px-4">
+        <section className="px-4 pt-16 lg:pt-0">
             <Subtitle title="Leaderboard" />
             <LeaderboardOptions />
             <LeaderboardTable />
