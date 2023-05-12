@@ -1,5 +1,8 @@
 export default function Footnote() {
     return (
-        <p>Footnote</p>
+        <div>
+            <p>Source: Dune dashboard</p>
+            <p>Footnotes</p>
+        </div>
     );
 }
