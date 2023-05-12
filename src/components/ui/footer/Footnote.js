@@ -1,8 +1,8 @@
 export default function Footnote() {
     return (
-        <div>
+        <div className="text-xs">
             <p>Source: Dune dashboard</p>
-            <p>Footnotes</p>
+            <p>Other footnotes</p>
         </div>
     );
 }
