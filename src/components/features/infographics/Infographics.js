@@ -2,6 +2,8 @@
 
 import { useState, useEffect } from 'react';
 import Subtitle from '@/components/ui/main/Subtitle';
+import DataLabel from './DataLabel';
+import ContractDataLabel from './ContractDataLabel';
 
 export default function Infographics() {
 
@@ -22,23 +24,23 @@ export default function Infographics() {
         <section className="px-4">
             <Subtitle title="Summary" />
             <p className="pt-3 text-5xl">$$$</p>
-            <p className="pt-1 text-sm text-gray-500">Total Contributions</p>
+            <DataLabel label="Total Contributions" />
             <p className="pt-3 text-5xl">{data ? data.totalSupply : ("Loading...")}</p>
-            <p className="pt-1 text-sm text-gray-500">Total Contributions</p>
+            <DataLabel label="Total Contributions" />
             <p className="pt-3 text-2xl">$$$</p>
-            <p className="pt-1 text-sm text-gray-500">Largest Contribution</p>
+            <DataLabel label="Largest Contribution" />
             <p className="pt-3 text-2xl">###</p>
-            <p className="pt-1 text-sm text-gray-500">Most Contributions</p>
+            <DataLabel label="Most Contributions" />
             <p className="pt-3 text-2xl">$$$</p>
-            <p className="pt-1 text-xs text-gray-500">Implied Impact</p>
+            <DataLabel label="Implied Impact" />
             <p className="pt-10 text-sm">{data ? data.address : ("Loading...")}</p>
-            <p className="pt-0 text-xs text-gray-500">Optimism Co-Grant Address</p>
+            <ContractDataLabel label="Optimism Co-Grant Address" />
             <p className="pt-3 text-sm">{data ? data.address : ("Loading...")}</p>
-            <p className="pt-0 text-xs text-gray-500">ERC-721M Contract Address</p>
+            <ContractDataLabel label="ERC-721M Contract Address" />
             <p className="pt-3 text-sm">{data ? data.name : ("Loading...")}</p>
-            <p className="pt-0 text-xs text-gray-500">Name</p>
+            <ContractDataLabel label="Name" />
             <p className="pt-3 text-sm">{data ? data.symbol : ("Loading...")}</p>
-            <p className="pt-0 text-xs text-gray-500">Symbol</p>
+            <ContractDataLabel label="Symbol" />
         </section>
     );
 }
