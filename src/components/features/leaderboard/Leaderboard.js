@@ -5,7 +5,7 @@ import TableNav from "./TableNav";
 
 export default function Leaderboard() {
     return (
-        <section className="px-4 border-solid border-2 border-gray-300 rounded-b-lg md:rounded-r-lg">
+        <section className="py-4 px-5 border-solid border-2 border-gray-300">
             <Subtitle title="Leaderboard" />
             <RankOptions />
             <Table />

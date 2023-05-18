@@ -21,7 +21,7 @@ export default function Infographics() {
     }, []);
 
     return (
-        <section className="px-4 border-solid border-2 border-gray-300 rounded-l-lg">
+        <section className="py-4 px-5 border-solid border-2 border-gray-300">
             <Subtitle title="Summary" />
             <p className="pt-3 text-5xl">$$$</p>
             <DataLabel label="Total Contributions" />
